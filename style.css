@@ -1,0 +1,96 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+* {
+    font-family: 'Merriweather', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+/* button */
+.View-btn {
+    border: 1px solid gray;
+    padding: 10px 26px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(1, 1, 95);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 0px rgba(34, 26, 26, 0.75);
+}
+.View-btn:hover {
+    background-color: rgba(23, 23, 26, 0.795);
+    padding: 3;
+    font-size: 12px;
+}
+/* button */
+
+
+/* Adopting Platform Solutions */
+.single-servics {
+    border: 1px solid white;
+    padding: 20px 30px;
+    color: white;
+    transition: 0.4s;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    /* box-shadow: 1px 2px 4px 18px rgba(50, 42, 158, 0.555);  */
+}
+
+
+.single-servics:hover {
+    border: 1px dashed white;
+}
+
+.learn {
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 4px 8px;
+    transition: 0.4s;
+}
+
+.learn:hover {
+    background-color: white;
+}
+
+/* Adopting Platform Solutions */
+
+
+
+.live {
+    text-align: center;
+}
+
+
+
+/* contact */
+.page-contacts-widget {
+    padding: 40px;
+    border: 2px solid white;
+    color: rgb(0, 0, 0);
+}
+/* contact */
+
+
+
+/* dropdown hover section */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-menu {
+display: block;
+}
+/* dropdown hover section */
