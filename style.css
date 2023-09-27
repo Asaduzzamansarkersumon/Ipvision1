@@ -9,8 +9,8 @@
     font-size: 16px;
 }
 @media only screen and (max-width: 600px) {
-    .navbar-toggler-ico {
-       width: 391px;
+    .navbar-toggler-icon {
+       width: 385px;
      }
     
    }
